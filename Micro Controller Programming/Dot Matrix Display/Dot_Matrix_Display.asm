@@ -11,9 +11,8 @@ L_main0:
 ;Dot_Matrix_Display.c,7 :: 		PORTD = 1<<7;
 	MOVLW      128
 	MOVWF      PORTD+0
-;Dot_Matrix_Display.c,8 :: 		PORTB = 0xDF;
-	MOVLW      223
-	MOVWF      PORTB+0
+;Dot_Matrix_Display.c,8 :: 		PORTB = 0x00;
+	CLRF       PORTB+0
 ;Dot_Matrix_Display.c,9 :: 		Delay_us(100);
 	MOVLW      66
 	MOVWF      R13+0
@@ -24,9 +23,8 @@ L_main2:
 ;Dot_Matrix_Display.c,11 :: 		PORTD = 1<<6;
 	MOVLW      64
 	MOVWF      PORTD+0
-;Dot_Matrix_Display.c,12 :: 		PORTB = 0xDF;
-	MOVLW      223
-	MOVWF      PORTB+0
+;Dot_Matrix_Display.c,12 :: 		PORTB = 0x00;
+	CLRF       PORTB+0
 ;Dot_Matrix_Display.c,13 :: 		Delay_us(100);
 	MOVLW      66
 	MOVWF      R13+0
@@ -37,8 +35,8 @@ L_main3:
 ;Dot_Matrix_Display.c,15 :: 		PORTD = 1<<5;
 	MOVLW      32
 	MOVWF      PORTD+0
-;Dot_Matrix_Display.c,16 :: 		PORTB = 0xDB;
-	MOVLW      219
+;Dot_Matrix_Display.c,16 :: 		PORTB = 0x90;
+	MOVLW      144
 	MOVWF      PORTB+0
 ;Dot_Matrix_Display.c,17 :: 		Delay_us(100);
 	MOVLW      66
@@ -50,8 +48,8 @@ L_main4:
 ;Dot_Matrix_Display.c,19 :: 		PORTD = 1<<4;
 	MOVLW      16
 	MOVWF      PORTD+0
-;Dot_Matrix_Display.c,20 :: 		PORTB = 0xDB;
-	MOVLW      219
+;Dot_Matrix_Display.c,20 :: 		PORTB = 0x90;
+	MOVLW      144
 	MOVWF      PORTB+0
 ;Dot_Matrix_Display.c,21 :: 		Delay_us(100);
 	MOVLW      66
@@ -63,8 +61,8 @@ L_main5:
 ;Dot_Matrix_Display.c,23 :: 		PORTD = 1<<3;
 	MOVLW      8
 	MOVWF      PORTD+0
-;Dot_Matrix_Display.c,24 :: 		PORTB = 0xDB;
-	MOVLW      219
+;Dot_Matrix_Display.c,24 :: 		PORTB = 0x90;
+	MOVLW      144
 	MOVWF      PORTB+0
 ;Dot_Matrix_Display.c,25 :: 		Delay_us(100);
 	MOVLW      66
@@ -76,8 +74,8 @@ L_main6:
 ;Dot_Matrix_Display.c,27 :: 		PORTD = 1<<2;
 	MOVLW      4
 	MOVWF      PORTD+0
-;Dot_Matrix_Display.c,28 :: 		PORTB = 0xDB;
-	MOVLW      219
+;Dot_Matrix_Display.c,28 :: 		PORTB = 0x90;
+	MOVLW      144
 	MOVWF      PORTB+0
 ;Dot_Matrix_Display.c,29 :: 		Delay_us(100);
 	MOVLW      66
@@ -89,8 +87,8 @@ L_main7:
 ;Dot_Matrix_Display.c,31 :: 		PORTD = 1<<1;
 	MOVLW      2
 	MOVWF      PORTD+0
-;Dot_Matrix_Display.c,32 :: 		PORTB = 0xFB;
-	MOVLW      251
+;Dot_Matrix_Display.c,32 :: 		PORTB = 0xFF;
+	MOVLW      255
 	MOVWF      PORTB+0
 ;Dot_Matrix_Display.c,33 :: 		Delay_us(100);
 	MOVLW      66
@@ -102,9 +100,8 @@ L_main8:
 ;Dot_Matrix_Display.c,35 :: 		PORTD = 1<<0;
 	MOVLW      1
 	MOVWF      PORTD+0
-;Dot_Matrix_Display.c,36 :: 		PORTB = 0xFB;
-	MOVLW      251
-	MOVWF      PORTB+0
+;Dot_Matrix_Display.c,36 :: 		PORTB = 0x00;
+	CLRF       PORTB+0
 ;Dot_Matrix_Display.c,37 :: 		Delay_us(100);
 	MOVLW      66
 	MOVWF      R13+0

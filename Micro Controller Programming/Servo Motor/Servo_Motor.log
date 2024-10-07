@@ -1,4 +1,4 @@
-0	1	mikroCPIC1618.exe -MSF -DBG -pP16F877A -DL -O11111114 -fo8 -N"C:\Users\samim\Desktop\Micro Controller Programming\Servo Motor\Servo_Motor.mcppi" -SP"C:\Program Files (x86)\mikroC PRO for PIC\Defs\" -SP"C:\Program Files (x86)\mikroC PRO for PIC\Uses\P16\" -SP"C:\Users\samim\Desktop\Micro Controller Programming\Servo Motor\" -IP"C:\Program Files (x86)\mikroC PRO for PIC\Uses\P16\" "Servo_Motor.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl"	 
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F877A -DL -O11111114 -fo8 -N"H:\4.2\mc\Micro Controller Programming\Servo Motor\Servo_Motor.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"H:\4.2\mc\Micro Controller Programming\Servo Motor\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" "Servo_Motor.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl"	 
 hint: 0	1139	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
 diagnostics: 0	122	Compilation Started	Servo_Motor.c
 diagnostics: 50	123	Compiled Successfully	Servo_Motor.c
@@ -7,5 +7,5 @@ hint: 0	1144	Used RAM (bytes): 4 (1%)  Free RAM (bytes): 348 (99%)	Used RAM (byt
 hint: 0	1144	Used ROM (program words): 178 (2%)  Free ROM (program words): 8014 (98%)	Used ROM (program words): 178 (2%)  Free ROM (program words): 8014 (98%)
 diagnostics: 0	125	Project Linked Successfully	Servo_Motor.mcppi
 diagnostics: 0	128	Linked in 16 ms	 
-diagnostics: 0	129	Project 'Servo_Motor.mcppi' completed: 250 ms	 
-diagnostics: 0	103	Finished successfully: 05 Oct 2024, 22:08:09	Servo_Motor.mcppi
+diagnostics: 0	129	Project 'Servo_Motor.mcppi' completed: 2031 ms	 
+diagnostics: 0	103	Finished successfully: 07 Oct 2024, 16:33:45	Servo_Motor.mcppi

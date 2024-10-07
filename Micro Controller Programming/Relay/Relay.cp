@@ -1,4 +1,4 @@
-#line 1 "C:/Users/samim/Desktop/Micro Controller Programming/Relay/Relay.c"
+#line 1 "H:/4.2/mc/Micro Controller Programming/Relay/Relay.c"
 void main() {
  TRISD.F0 = 0;
  PORTD.F0 = 0;

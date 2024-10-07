@@ -1,4 +1,4 @@
-#line 1 "C:/Users/samim/Desktop/Micro Controller Programming/Dot Matrix Display/Dot_Matrix_Display.c"
+#line 1 "H:/4.2/mc/Micro Controller Programming/Dot Matrix Display/Dot_Matrix_Display.c"
 void main() {
  TRISB = 0x00;
  TRISD = 0x00;
@@ -6,35 +6,35 @@ void main() {
  while(1)
  {
  PORTD = 1<<7;
- PORTB = 0xDF;
+ PORTB = 0x00;
  Delay_us(100);
 
  PORTD = 1<<6;
- PORTB = 0xDF;
+ PORTB = 0x00;
  Delay_us(100);
 
  PORTD = 1<<5;
- PORTB = 0xDB;
+ PORTB = 0x90;
  Delay_us(100);
 
  PORTD = 1<<4;
- PORTB = 0xDB;
+ PORTB = 0x90;
  Delay_us(100);
 
  PORTD = 1<<3;
- PORTB = 0xDB;
+ PORTB = 0x90;
  Delay_us(100);
 
  PORTD = 1<<2;
- PORTB = 0xDB;
+ PORTB = 0x90;
  Delay_us(100);
 
  PORTD = 1<<1;
- PORTB = 0xFB;
+ PORTB = 0xFF;
  Delay_us(100);
 
  PORTD = 1<<0;
- PORTB = 0xFB;
+ PORTB = 0x00;
  Delay_us(100);
  }
 }

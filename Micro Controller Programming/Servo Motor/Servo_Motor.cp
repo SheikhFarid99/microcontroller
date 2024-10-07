@@ -1,4 +1,4 @@
-#line 1 "C:/Users/samim/Desktop/Micro Controller Programming/Servo Motor/Servo_Motor.c"
+#line 1 "H:/4.2/mc/Micro Controller Programming/Servo Motor/Servo_Motor.c"
 void rotate0()
 {
  int i = 0;

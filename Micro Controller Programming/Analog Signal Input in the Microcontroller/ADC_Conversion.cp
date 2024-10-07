@@ -1,4 +1,4 @@
-#line 1 "C:/Users/samim/Desktop/Micro Controller Programming/Analog Signal Input in the Microcontroller/ADC_Conversion.c"
+#line 1 "H:/4.2/mc/Micro Controller Programming/Analog Signal Input in the Microcontroller/ADC_Conversion.c"
 int ADCValue;
 char ch[4];
 void main() {

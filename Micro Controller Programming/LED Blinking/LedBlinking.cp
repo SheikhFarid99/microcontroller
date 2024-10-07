@@ -1,4 +1,4 @@
-#line 1 "C:/Users/samim/Desktop/Micro Controller Programming/LED Blinking/LedBlinking.c"
+#line 1 "H:/4.2/mc/Micro Controller Programming/LED Blinking/LedBlinking.c"
 void main() {
  TRISB = 0;
  while(1)
