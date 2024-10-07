@@ -1,0 +1,7 @@
+[PROJECTS]
+Count=3
+Project0=..\Temperature Sensor\Temperature_Sensor.mcppi
+Project1=..\Servo Motor\Servo_Motor.mcppi
+Project2=Dot_Matrix_Display.mcppi
+[ActiveProject]
+Index=2
